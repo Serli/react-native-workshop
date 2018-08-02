@@ -1,5 +1,30 @@
 import { StyleSheet } from "react-native";
 
+export const movieList = StyleSheet.create({
+  pageContainer: {
+    position: 'absolute',
+    bottom: 10,
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent:'center'
+  },
+  button: {
+    backgroundColor: '#efefef',
+    height:35,
+    width:35,
+    marginHorizontal: 16,
+    borderRadius: 50,
+    borderColor: '#BBB',
+    borderWidth:1,
+    justifyContent: 'center',
+    alignItems:'center'
+  },
+  pageNumber: {
+    color:'black',
+    textAlign:'center'
+  }
+});
+
 export const movie = StyleSheet.create({
   container: {
     flex:1,

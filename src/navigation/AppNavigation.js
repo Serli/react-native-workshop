@@ -26,6 +26,7 @@ export default class AppNavigation extends Component {
       },
       {
         navigationOptions: () => ({
+          headerStyle: {backgroundColor: '#efefef'},
           headerTintColor: "black"
         }),
         initialRouteName: "movieList"
