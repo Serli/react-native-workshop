@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { View, FlatList, Text, TouchableOpacity } from "react-native";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { THE_MOVIE_DB } from "./api/constants";
-import { getPopular } from "./services/movie";
+import { getPopular, getNowPlaying, getTopRated } from "./services/movie";
 import Movie from "./Movie";
 import * as styles from "./styles";
 
@@ -27,7 +27,14 @@ export default class MovieList extends Component {
 
   updateList = async (page = this.state.page) => {
     await this.setState({ fetching: true });
-    const response = await getPopular(page);
+    let response;
+    if(this.props.navigation.state.params.type === 1){
+      response = await getNowPlaying(page);
+    } else if(this.props.navigation.state.params.type === 2){
+      response = await getPopular(page);
+    } else {
+      response = await getTopRated(page);
+    }
     const list = response.results;
     list.forEach(item => {
       item.image = this.getImageUrl(item.poster_path);
