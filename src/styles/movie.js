@@ -1,9 +1,16 @@
 import { StyleSheet } from "react-native";
 
 export const movieList = StyleSheet.create({
-  pageContainer: {
+  pageContainerVisible: {
     position: 'absolute',
     bottom: 10,
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent:'center'
+  },
+  pageContainerHidden: {
+    position: 'absolute',
+    bottom: -50,
     width: '100%',
     flexDirection: 'row',
     justifyContent:'center'

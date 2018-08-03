@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View, FlatList, Text, TouchableOpacity } from "react-native";
+import { View, FlatList, Text, TouchableOpacity, LayoutAnimation, UIManager } from "react-native";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { THE_MOVIE_DB } from "./api/constants";
 import { getPopular, getNowPlaying, getTopRated } from "./services/movie";
@@ -12,9 +12,12 @@ export default class MovieList extends Component {
     this.state = {
       fetching: false,
       page: 1,
-      list: []
+      list: [],
+      ascending: true,
     };
     this.clickable = true;
+    this.lastY = 0;
+    UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
   }
 
   componentDidMount() {
@@ -60,19 +63,34 @@ export default class MovieList extends Component {
     }
   }
 
+  handleScroll = (event) => {
+    const y = event.nativeEvent.contentOffset.y;
+    if(y >= 0){
+      LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
+      if(y - this.lastY > 0 && this.state.ascending){
+        this.setState({ascending: false});
+      } else if(y - this.lastY < 0 && !this.state.ascending){
+        this.setState({ascending: true});
+      }
+      this.lastY = y;
+    }
+  } 
+
   render() {
+    console.log(this.lastY)
     return (
       <View style={styles.movie.container}>
         <FlatList
           ItemSeparatorComponent={this.renderSeparator}
-          ListFooterComponent={<View style={{height:50}} />}
           data={this.state.list}
           refreshing={this.state.fetching}
           onRefresh={this.updateList}
           renderItem={({ item }) => <Movie item={item} {...this.props} />}
           keyExtractor={item => String(item.id)}
+          onScroll={this.handleScroll}
+          bounces={this.state.ascending}
         />
-        <View style={styles.movieList.pageContainer}>
+        <View style={this.state.ascending ? styles.movieList.pageContainerVisible : styles.movieList.pageContainerHidden}>
           <TouchableOpacity onPress={() => this.changePage(1)} activeOpacity={0.9} style={styles.movieList.button}>
             <Ionicons name={'ios-skip-backward'} color={'#111'} size={18}/>
           </TouchableOpacity>

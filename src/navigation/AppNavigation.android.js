@@ -52,10 +52,8 @@ const StackNavigator = createStackNavigator(
     MovieDetail: createDetail(),
   },
   {
-    navigationOptions: ({navigation}) => ({
+    navigationOptions: () => ({
       headerStyle: {backgroundColor: "#efefef"},
-      gesturesEnabled: false,
-      
   }),
     initialRouteParams: {type: 1}
   }
