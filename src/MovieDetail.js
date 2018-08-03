@@ -13,11 +13,15 @@ export default class movie extends Component {
     }
   }
 
-  async componentDidMount() {
+  componentDidMount() {
+    this.updateActors();
+  }
+  
+  updateActors = async () => {
     const { item } = this.props.navigation.state.params;
     const response = await getCredits(item.id);
     const actors = response.cast;
-    this.setState({ actors })
+    this.setState({ actors });
   }
 
   render() {

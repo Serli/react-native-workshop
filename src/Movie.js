@@ -11,7 +11,7 @@ export default class Movie extends Component {
 
   onPress = item => {
     const { navigate } = this.props.navigation;
-    navigate({ routeName: 'movieDetail', params: { item } });
+    navigate({ routeName: 'MovieDetail', params: { item } });
   }
 
   render() {

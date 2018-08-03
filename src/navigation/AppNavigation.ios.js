@@ -13,7 +13,7 @@ export default class AppNavigation extends Component {
 const createStack = (listTitle, type) => {
   return createStackNavigator(
     {
-      movieList: {
+      MovieList: {
         screen: MovieList,
         navigationOptions: () => {
           return {
@@ -21,7 +21,7 @@ const createStack = (listTitle, type) => {
           };
         }
       },
-      movieDetail: {
+      MovieDetail: {
         screen: MovieDetail,
         navigationOptions: ({ navigation }) => {
           return {
@@ -36,7 +36,7 @@ const createStack = (listTitle, type) => {
         headerTintColor: "black",
       }),
       initialRouteParams: {type},
-      initialRouteName: "movieList"
+      initialRouteName: "MovieList"
     }
   );
 }
@@ -91,7 +91,7 @@ const TabNavigator = createBottomTabNavigator(
       },
     }),
     tabBarOptions: {
-      activeTintColor: 'tomato',
+      activeTintColor: '#009183',
       inactiveTintColor: 'gray',
     },
     animationEnabled: false,
