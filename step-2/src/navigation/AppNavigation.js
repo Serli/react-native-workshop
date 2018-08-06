@@ -7,15 +7,15 @@ export default class AppNavigation extends Component {
   render() {
     const Stack = createStackNavigator(
       {
-        movieList: {
+        MovieList: {
           screen: MovieList,
           navigationOptions: () => {
             return {
-              headerTitle: "Populaires"
+              headerTitle: "À l'affiche"
             };
           }
         },
-        movieDetail: {
+        MovieDetail: {
           screen: MovieDetail,
           navigationOptions: ({ navigation }) => {
             return {
@@ -28,7 +28,7 @@ export default class AppNavigation extends Component {
         navigationOptions: () => ({
           headerTintColor: "black"
         }),
-        initialRouteName: "movieList"
+        initialRouteName: "MovieList"
       }
     );
     return <Stack />;
