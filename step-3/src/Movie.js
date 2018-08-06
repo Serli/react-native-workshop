@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
+import { Text, View, Image, TouchableOpacity } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import * as styles from "./styles";
 
@@ -11,7 +11,7 @@ export default class Movie extends Component {
 
   onPress = item => {
     const { navigate } = this.props.navigation;
-    navigate({ routeName: 'movieDetail', params: { item } });
+    navigate({ routeName: 'MovieDetail', params: { item } });
   }
 
   render() {
