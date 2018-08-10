@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "33776244655",
+    "firebase_url": "https://react-native-workshop-a22f2.firebaseio.com",
+    "project_id": "react-native-workshop-a22f2",
+    "storage_bucket": "react-native-workshop-a22f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33776244655:android:fe27836fcc6dd676",
+        "android_client_info": {
+          "package_name": "com.reactnativeworkshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33776244655-nhl9p4p131vt9620q2r0b1usgiphdl0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2KBJ5IKTKr7j0Xf8V-aid0fSIoFm_87U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
