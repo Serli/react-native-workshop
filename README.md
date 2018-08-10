@@ -5,9 +5,9 @@ Ce workshop permet de découvrir [React Native](https://facebook.github.io/react
 ## Sommaire
 
 - [Le principe de l'application](#le-principe-de-lapplication)
-- [Les pré-requis techniques](#les-pre-requis-techniques)
-- [Pré-installer les dépendances](#pre-installer-les-dependances)
-- [Les étapes du workshop](#les-etapes-du-workshop)
+- [Les pré-requis techniques](#les-pré-requis-techniques)
+- [Pré-installer les dépendances](#pré-installer-les-dépendances)
+- [Les étapes du workshop](#les-étapes-du-workshop)
 - [C'est parti !](#cest-parti-)
 
 ## Le principe de l'application
