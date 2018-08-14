@@ -81,11 +81,11 @@ const TabNavigator = createBottomTabNavigator(
         const { routeName } = navigation.state;
         let iconName;
         if (routeName === 'NowPlaying') {
-          iconName = `ios-easel${focused ? '' : '-outline'}`;
+          iconName = `ios-easel`;
         } else if (routeName === 'Popular') {
-          iconName = `ios-flame${focused ? '' : '-outline'}`;
+          iconName = `ios-flame`;
         } else if (routeName === 'TopRated') {
-          iconName = `ios-star${focused ? '' : '-outline'}`;
+          iconName = `ios-star`;
         }
         return <Ionicons name={iconName} size={25} color={tintColor} />;
       },

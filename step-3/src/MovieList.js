@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { View, FlatList, Text, TouchableOpacity, LayoutAnimation, UIManager } from "react-native";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { THE_MOVIE_DB } from "./api/constants";
-import { getPopular, getNowPlaying, getTopRated } from "./services/movie";
+import { getNowPlaying } from "./services/movie";
 import Movie from "./Movie";
 import * as styles from "./styles";
 
@@ -31,14 +31,8 @@ export default class MovieList extends Component {
 
   updateList = async (page = this.state.page) => {
     await this.setState({ fetching: true });
-    let response;
-    if(this.props.navigation.state.params.type === 1){
-      response = await getNowPlaying(page);
-    } else if(this.props.navigation.state.params.type === 2){
-      response = await getPopular(page);
-    } else {
-      response = await getTopRated(page);
-    }
+    //TODO: récupérer la bonne liste en fonction de l'écran sur lequel on est
+    const response = await getNowPlaying(page);
     const list = response.results;
     list.forEach(item => {
       item.image = this.getImageUrl(item.poster_path);

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, Image, TouchableOpacity } from 'react-native';
+import { Text, View, Image } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import * as styles from "./styles";
 
@@ -7,11 +7,6 @@ export default class Movie extends Component {
 
   constructor(props) {
     super(props);
-  }
-
-  onPress = item => {
-    const { navigate } = this.props.navigation;
-    navigate({ routeName: 'MovieDetail', params: { item } });
   }
 
   render() {
@@ -22,7 +17,7 @@ export default class Movie extends Component {
     const day = release_date[2];
     release_date = `${day}/${month}/${year}`;
     return (
-      <TouchableOpacity activeOpacity={0.6} onPress={() => this.onPress(item)} style={[styles.movie.subcontainer]}>
+      <View style={[styles.movie.subcontainer]}>
         <Image style={styles.movie.poster} resizeMode={'contain'} source={{uri:item.image}}/>
         <View style={styles.movie.previewContainer}>
           <Text style={styles.movie.title}>{`${item.title}`}</Text>
@@ -37,7 +32,7 @@ export default class Movie extends Component {
             <Ionicons name={'ios-star'} size={18}/>
           </View>
         </View>
-      </TouchableOpacity>
+      </View>
     );
   }
 }

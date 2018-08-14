@@ -128,26 +128,26 @@ Pour pré-installer les dépendances à l'avance, vous pouvez lancer le script `
 
 ## Les étapes du workshop
 
-- Étape 0
+- Étape 1
     - Liste des films à l'afiche
     - Application du style sur la liste
-- Étape 1
+- Étape 2
     - Navigation vers l'écran de détail d'un film
     - Ajout d'une animation
-- Étape 2
+- Étape 3
     - Navigation pour Android
     - Navigation pour iOS
-- Étape 3
+- Étape 4
     - Ejection de l'application
     - Ajout de la librairie onesignal
     - Ajout de notifications pour Android
-- Étape 4
+- Étape 5
     - Création d'un apk
     - Création d'un ipa
 
 ## C'est parti !
 
-C'est le moment de commencer ! La première étape dispose d'un projet déjà créé mais si vous souhaitez savoir comment partir de zéro, il suffit d'executer ceci :
+C'est le moment de commencer ! La première étape dispose d'un projet déjà créé mais si vous souhaitez savoir comment partir de zéro, il suffit d'exécuter ceci :
 
 ```
 $ create-react-native-app nom-de-mon-app

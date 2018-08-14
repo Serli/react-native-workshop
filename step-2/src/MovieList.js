@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View, FlatList, Text, TouchableOpacity, LayoutAnimation, UIManager } from "react-native";
+import { View, FlatList, Text, TouchableOpacity } from "react-native";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { THE_MOVIE_DB } from "./api/constants";
 import { getNowPlaying } from "./services/movie";
@@ -13,12 +13,9 @@ export default class MovieList extends Component {
       fetching: false,
       page: 1,
       list: [],
-      ascending: true,
     };
     this.totalPages =  1;
     this.clickable = true;
-    this.lastY = 0;
-    UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
   }
 
   componentDidMount() {
@@ -31,7 +28,6 @@ export default class MovieList extends Component {
 
   updateList = async (page = this.state.page) => {
     await this.setState({ fetching: true });
-    //TODO: récupérer la bonne liste en fonction de l'écran sur lequel on est
     const response = await getNowPlaying(page);
     const list = response.results;
     list.forEach(item => {
@@ -42,7 +38,7 @@ export default class MovieList extends Component {
     await this.setState({
       fetching: false,
       page,
-      list,
+      list
     });
   }
 
@@ -58,23 +54,9 @@ export default class MovieList extends Component {
     }
   }
 
-  handleScroll = (event) => {
-    const y = event.nativeEvent.contentOffset.y;
-    if(y >= 0){
-      if(y - this.lastY > 0 && this.state.ascending){
-        LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
-        this.setState({ascending: false});
-      } else if(y - this.lastY < 0 && !this.state.ascending){
-        LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
-        this.setState({ascending: true});
-      }
-      this.lastY = y;
-    }
-  }
-
   renderPage() {
     return (
-      <View style={this.state.ascending ? styles.movieList.pageContainerVisible : styles.movieList.pageContainerHidden}>
+      <View style={styles.movieList.pageContainerVisible}>
         <TouchableOpacity onPress={() => this.changePage(1)} activeOpacity={0.9} style={styles.movieList.button}>
           <Ionicons name={'ios-skip-backward'} color={'#111'} size={18}/>
         </TouchableOpacity>
@@ -99,13 +81,12 @@ export default class MovieList extends Component {
       <View style={styles.movie.container}>
         <FlatList
           ItemSeparatorComponent={this.renderSeparator}
+          ListFooterComponent={<View style={{ height: 50 }} />}
           data={this.state.list}
           refreshing={this.state.fetching}
           onRefresh={this.updateList}
           renderItem={({ item }) => <Movie item={item} {...this.props} />}
           keyExtractor={item => String(item.id)}
-          onScroll={this.handleScroll}
-          bounces={this.state.ascending}
         />
         { this.renderPage() }
       </View>

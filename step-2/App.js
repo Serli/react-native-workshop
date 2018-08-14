@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
-import AppNavigation from './src/navigation/AppNavigation';
+import { View, SafeAreaView, StatusBar } from 'react-native';
+import MovieList from './src/MovieList';
 
 export default class App extends Component {
   
   render() {
     return (
-        <AppNavigation />
+      <SafeAreaView style={{ flex:1 }}>
+        <View style={{height: StatusBar.currentHeight}}/>
+        <MovieList />
+      </SafeAreaView>
     );
   }
 }

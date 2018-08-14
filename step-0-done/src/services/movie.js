@@ -1,5 +1,0 @@
-import { THE_MOVIE_DB } from '../api/constants'
-
-export const getNowPlaying = (page = 1) => {
-  return fetch(`${THE_MOVIE_DB.url}movie/now_playing?api_key=${THE_MOVIE_DB.key}&language=fr-FR&page=${page}`).then(response => response.json());
-}
