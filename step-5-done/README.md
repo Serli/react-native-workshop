@@ -1,1 +1,0 @@
-# Étape 5 - Création d'un apk et d'un ipa
