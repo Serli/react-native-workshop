@@ -19,8 +19,8 @@ Ensuite générez une clé de serveur Firebase et ajoutez la à votre projet One
 
 ### Éjection de l'application
 
-Nous allons maintenant éjecter notre projet en exécutant la commande ```yarn eject```. Choisissez l'option **_React NAtive: I'd like a regular React Native project_**, entre le nom de l'application : **_React Native Workshop_** puis saisissez le nom de projet pour Android Studio / Xcode : **_reactnativeworkshop_**.
-Voilà votre projet est éjecté. Maintenant ajoutez la librairie onesignal avec la commande ```yarn add react-native-onesignal```.
+Nous allons maintenant éjecter notre projet en exécutant la commande ```yarn eject```. Choisissez l'option **_React Native: I'd like a regular React Native project_**, entrez le nom de l'application : **_React Native Workshop_** puis saisissez le nom de projet pour Android Studio / Xcode : **_reactnativeworkshop_**.
+Voilà votre projet est éjecté. Maintenant ajoutez la librairie OneSignal avec la commande ```yarn add react-native-onesignal```.
 
 ### react-native link
 
@@ -95,6 +95,11 @@ Pour fonctionner, OneSignal nécessite que votre application soit au minimum au 
 - buildToolsVersion : ```buildToolsVersion "26.0.2"```
 - targetSdkVersion : ```targetSdkVersion 26```
 - com.android.support:appcompat-v7 : ```compile "com.android.support:appcompat-v7:26.0.2"```
+
+Gradle doit être au minimum en version 4.1, augmentez la version en allant dans le fichier *android/gradle/wrapper/gradle-wrapper.properties* et remplacez la ligne **distributionUrl** par :
+```
+distributionUrl=https\://services.gradle.org/distributions/gradle-4.1-all.zip
+```
 
 Pour finir, remplacez le code du fichier *android/build.gradle* par :
 ```gradle
