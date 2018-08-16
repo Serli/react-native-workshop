@@ -138,7 +138,7 @@ Pour pré-installer les dépendances à l'avance, vous pouvez lancer le script `
     - Navigation pour Android
     - Navigation pour iOS
 - Étape 4
-    - Ejection de l'application
+    - Éjection de l'application
     - Ajout de la librairie react-native-onesignal
     - Ajout de notifications pour Android
 - Étape 5

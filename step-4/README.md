@@ -1,4 +1,4 @@
-# Étape 4 - Ejection et ajout de notifications
+# Étape 4 - Éjection et ajout de notifications
 
 ## Objectif
 
