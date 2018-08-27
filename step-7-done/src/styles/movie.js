@@ -28,7 +28,7 @@ export const movieList = StyleSheet.create({
   },
   pageNumber: {
     color:'black',
-    textAlign:'center'
+    textAlign:'center',
   }
 });
 
@@ -46,6 +46,7 @@ export const movie = StyleSheet.create({
   noFavoritesText: {
     fontSize: 18,
     textAlign: 'center',
+    color: 'black'
   },
   subcontainer: {
     justifyContent: 'space-between',
@@ -91,24 +92,29 @@ export const movie = StyleSheet.create({
   title: {
     fontSize: 18,
     textAlign: 'center',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: 'black'
   },
   libelle: {
     fontSize: 15,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: 'black'
   },
   centeredLibelle: {
     textAlign: 'center',
     fontSize: 15,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: 'black'
   },
   text: {
     fontSize: 14,
-    textAlign: 'justify'
+    textAlign: 'justify',
+    color: 'black'
   },
   centeredText: {
     textAlign: 'center',
-    fontSize: 14
+    fontSize: 14,
+    color: 'black'
   },
   poster: {
     width:100,

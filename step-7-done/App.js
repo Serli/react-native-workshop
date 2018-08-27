@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import AppNavigation from './src/navigation/AppNavigation';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/lib/integration/react';
-import { store, persistor } from './src/redux'
+import { store, persistor } from './src/redux';
+
+console.ignoredYellowBox = ['Warning: isMounted(...) is deprecated'];
 
 export default class App extends Component {
   

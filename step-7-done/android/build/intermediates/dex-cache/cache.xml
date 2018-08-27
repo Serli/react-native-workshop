@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_4b3075ff17347279659348ff1a873c72e5f39af2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/reactnativeworkshop/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/reactnativeworkshop-react-native-vector-icons-unspecified_45e2e934c4bccba3c66978941836ec05e0551fee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_f30d2628634836c6e80e03cf2878cd3eb0abc71c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_3e1c4be3d6e2a6d511712b7461e2ee8e36460057.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_32d292dfc6a73c48f8527dbf2890cbbd74e9fbbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_70fe2a577a8ccad811ed40d345efdf3df3a0c5f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_0a60a2fccc9fa2967fad8538b359db3225ef14ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_4faff423d811af1d01d45b61e4c4dd1cd04c9c52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_8471a25212ea42dedad11d5118c6f652c90ac5a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_61b34c86185719d6a4cc6c66ec106efb086689de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_088cfef4a847f1c3eb04e651bb8c20f866cce45a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_f3ba78886e8f54b4596b91e8947d12cde0632ca3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_95371c515fede37e5c206a42e66a8baef90c9b2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_47c8f1f233780307212c3574f73b113b1c03a470.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_fff028d92a22c1467d88177c58601b0d070c90a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_9db0514eef30c4b22adbe82eb48de741a55f2b14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_9eab12b64995dc4ceb3cb07d23c69dfb37db63ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_93100e008dbd93c51a1e000eb4cb28fe2d41460d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_e43ad4de45443d0295d032be9e751268149ff8de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_0b5c13c4e16db7dbf90edbd29d9c72b016e42a28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_cf2250c43b5fc626efde8f221b756f8e5254e998.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_9f0effb0168e03aa7fbd3be91641f1b067da6c43.jar" />
+    </item>
+
+</items>

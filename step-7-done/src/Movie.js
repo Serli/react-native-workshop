@@ -33,7 +33,7 @@ class Movie extends Component {
           {isFavorite && <Ionicons style={{alignSelf: 'center', marginTop: 10}} name={`ios-bookmark`} color={'black'} size={25}/>}
           <View style={styles.movie.synopsisPreview}>
             <Text style={styles.movie.centeredLibelle}>{`Synopsis :`}</Text>
-            <Text numberOfLines={3} style={[{color: 'grey'}, styles.movie.centeredText]}>{`${item.overview}`}</Text>
+            <Text numberOfLines={3} style={[styles.movie.centeredText, {color: 'grey'}]}>{`${item.overview}`}</Text>
           </View>
           <View style={styles.movie.centeredRowContainer}>
             <Text style={styles.movie.libelle}>{`Note des utilisateurs : `}</Text>

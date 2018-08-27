@@ -46,7 +46,7 @@ class MovieDetail extends Component {
       <ScrollView style={styles.movie.container}>
         <Image style={styles.movie.backdrop} resizeMode={'cover'} source={{ uri: item.backdrop }} />
         <View style={{ marginTop: 10, marginHorizontal: 10 }}>
-          <Ionicons style={{alignSelf:'center', marginBottom :10}} name={`ios-bookmark${isFavorite?'':'-outline'}`} color={'black'} size={25}/>
+          <Ionicons style={{alignSelf:'center', marginBottom :10}} name={`ios-bookmark`} color={isFavorite?'black':'lightgrey'} size={25}/>
           <TouchableOpacity style={styles.movie.favoriteButton} onPress={this.toggleFavorite}>
             <Text style={styles.movie.libelle}>{isFavorite?'Enlever des favoris  ':'Ajouter aux favoris  '}</Text>
           </TouchableOpacity>

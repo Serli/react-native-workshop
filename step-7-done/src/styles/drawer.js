@@ -16,7 +16,8 @@ export const drawer = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginVertical: 10,
-    marginLeft: 10
+    marginLeft: 10,
+    color: 'black'
   },
   iconView: {
     width: 25,
