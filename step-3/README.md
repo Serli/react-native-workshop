@@ -2,7 +2,7 @@
 
 ## Architecture
 
-Ce dossier reprend ce qui a été fait dans l'étape 1.
+Ce dossier reprend ce qui a été fait dans l'étape 2.
 
 Dans le dossier *src*, nous avons rajouté :
 

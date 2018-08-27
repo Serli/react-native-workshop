@@ -109,6 +109,7 @@ Par exemple :
 - Atom : [https://atom.io/](https://atom.io/)
 - Visual Studio Code : [https://code.visualstudio.com/](https://code.visualstudio.com/)
 - IntelliJ : [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/download/)
+- WebStorm : [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)
 
 ### Xcode
 
