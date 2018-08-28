@@ -3,7 +3,7 @@ import { createStackNavigator, createDrawerNavigator } from "react-navigation";
 import IconFeather from 'react-native-vector-icons/Feather';
 import MovieList from "../MovieList";
 import MovieDetail from "../MovieDetail";
-import DrawerContainer from './DrawerContainer'
+import DrawerContainer from './DrawerContainer';
 
 export default class AppNavigation extends Component {
   render() {
@@ -21,8 +21,8 @@ const createList = listTitle => {
           headerLeft: <IconFeather 
                     name='menu' 
                     color='black' 
-                    size={24} 
-                    style={{paddingLeft: 10}}
+                    size={25} 
+                    style={{padding: 10}}
                     onPress={() => {
                         navigation.openDrawer();
                     }}/>,

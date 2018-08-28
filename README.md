@@ -18,6 +18,7 @@ Les principales fonctionnalités de l'application sont :
 
 - Lister les films actuellement à l'affiche / les plus populaires du moment / les mieux notés
 - Afficher le détail d'un film avec sa description et son casting
+- Ajouter des films aux favoris
 
 Nous allons utiliser la base de données [THE MOVIE DB](https://www.themoviedb.org/) qui nous permettra d'avoir une base de films conséquente.
 
@@ -139,10 +140,15 @@ Pour pré-installer les dépendances à l'avance, vous pouvez lancer le script `
     - Navigation pour Android
     - Navigation pour iOS
 - Étape 4
+    - Ajout de Redux et persistance du store
+    - Éjection de l'application
+    - Gestion des permissions
+    - Accès à l'appareil photo et aux images du device
+- Étape 5
     - Éjection de l'application
     - Ajout de la librairie react-native-onesignal
     - Ajout de notifications pour Android
-- Étape 5
+- Étape 6
     - Création d'un apk
     - Création d'un ipa
 
