@@ -77,47 +77,7 @@ Sur [le site OneSignal](https://onesignal.com/), dans l'onglet **Settings**, dan
 OneSignal.init("YOUR-ONESIGNAL-APP-ID");
 ```
 
-Pour fonctionner, OneSignal nécessite que votre application soit au minimum au niveau d'API 26. Donc dans le fichier *android/app/build.gradle*, montez les versions de : 
-- compileSdkVersion : ```compileSdkVersion 26```
-- buildToolsVersion : ```buildToolsVersion "26.0.2"```
-- targetSdkVersion : ```targetSdkVersion 26```
-- com.android.support:appcompat-v7 : ```compile "com.android.support:appcompat-v7:26.0.2"```
-
-Gradle doit être au minimum en version 4.1, augmentez la version en allant dans le fichier *android/gradle/wrapper/gradle-wrapper.properties* et remplacez la ligne **distributionUrl** par :
-```
-distributionUrl=https\://services.gradle.org/distributions/gradle-4.1-all.zip
-```
-
-Pour finir, remplacez le code du fichier *android/build.gradle* par :
-```gradle
-buildscript {
-    repositories {
-        jcenter()
-        maven {
-            url 'https://maven.google.com/'
-            name 'Google'
-        }
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0'
-        classpath 'com.google.gms:google-services:4.0.0'
-    }
-}
-
-allprojects {
-    repositories {
-        mavenLocal()
-        jcenter()
-        maven {
-            url "$rootDir/../node_modules/react-native/android"
-        }
-        maven {
-            url 'https://maven.google.com/'
-            name 'Google'
-        }
-    }
-}
-```
+Pour fonctionner, OneSignal nécessite que notre application soit au minimum au niveau d'API 26, nous nous sommes chargés de ça dans l'étape 4.
 
 ### Déclenchement de notifications
 

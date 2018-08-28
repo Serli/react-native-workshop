@@ -4,7 +4,7 @@ import Person from './Person';
 import { getCredits } from './services/movie';
 import * as styles from "./styles";
 
-export default class movie extends Component {
+export default class MovieDetail extends Component {
 
   constructor(props) {
     super(props);

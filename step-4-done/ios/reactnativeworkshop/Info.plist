@@ -35,16 +35,12 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSCameraUsageDescription</key>
-	<string>$(PRODUCT_NAME) would like to use your camera</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>$(PRODUCT_NAME) would like to your microphone (for videos)</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>$(PRODUCT_NAME) would like to save photos to your photo gallery</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>$(PRODUCT_NAME) would like access to your photo gallery</string>
+    <string>$(PRODUCT_NAME) souhaite accéder à votre gallerie d'image</string>
+    <key>NSCameraUsageDescription</key>
+    <string>$(PRODUCT_NAME) souhaite utiliser l'appareil photo</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>$(PRODUCT_NAME) souhaite sauvegarder des photos dans votre gallerie d'image</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Entypo.ttf</string>

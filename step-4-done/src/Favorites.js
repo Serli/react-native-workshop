@@ -13,7 +13,7 @@ class Favorites extends Component {
     const {navigation, dispatch} = this.props;
     navigation.setParams({
       clearFavorites: () => { dispatch(Actions.favorites.clear()) }
-  });
+    });
   }
 
   renderSeparator() {
