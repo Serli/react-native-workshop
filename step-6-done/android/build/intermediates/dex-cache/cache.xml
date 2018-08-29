@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/71b989fbed655489f8a6c8fd5abe7655/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="22569eca3029ab00583c332a2be220cdbf091b35">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.1.aar/1c215380af4c5f9a5b1a0d262a78878f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="16f423bae182fd81553d109269f7a5e13fd1cb52">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.1.aar/00941dca892775960aa74cfd1428bfda/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9ff5f71ff6ed9612bc05ff376dd9ca27c7da977">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/d932ce34c0d3a9eb80d3e4ad8b50118c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/d932ce34c0d3a9eb80d3e4ad8b50118c/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/a15f1d631b39a800a3f195ab592ff7fc/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e1086213a85bf2bfc3f6448d66581198ba380f69">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/ac11591fb486e9dbc648e330492daf93/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d8ec04dc91c0c90a0ceeca77c94c8b15cb7f3892">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-6-done/node_modules/react-native-onesignal/android/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d4481781104c15e70976ce0fba0e5ba564255aeb">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/f2b864e173ad921f8d8fe81a3e1f89a3/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a38a8974c8d066800237d22a86df2e88cb9e065c">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-6-done/node_modules/react-native-vector-icons/android/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/9c5c1478b6f75098a848b4628fe27309/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed8395f343c428cd55c60499f04323083f4ef0db">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/Projets/react-native-workshop/step-6-done/node_modules/react-native-image-picker/android/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4d0ef11f07b37345be9b1c181e95d007bbc7801">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/ec0203d396f2d9f3aea52b62ddefd975/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b739661c7142579d33f42801cfb71882cd217727">
+        <dex dex="/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/transforms/preDex/release/32.jar" />
+    </item>
+
+</items>

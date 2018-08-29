@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/9c5c1478b6f75098a848b4628fe27309/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_tint_switch_track.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_tint_default.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_tint_spinner.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_tint_edittext.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/9c5c1478b6f75098a848b4628fe27309/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/9c5c1478b6f75098a848b4628fe27309/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color/abc_btn_colored_text_material.xml"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/catalyst_slide_up.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/d932ce34c0d3a9eb80d3e4ad8b50118c/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/catalyst_slide_down.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/d932ce34c0d3a9eb80d3e4ad8b50118c/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/tooltip_exit.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/catalyst_fade_out.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/d932ce34c0d3a9eb80d3e4ad8b50118c/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/catalyst_push_up_out.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/d932ce34c0d3a9eb80d3e4ad8b50118c/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/catalyst_push_up_in.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/d932ce34c0d3a9eb80d3e4ad8b50118c/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/catalyst_fade_in.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/d932ce34c0d3a9eb80d3e4ad8b50118c/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/anim/tooltip_enter.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/anim/tooltip_enter.xml"
+    }
+]

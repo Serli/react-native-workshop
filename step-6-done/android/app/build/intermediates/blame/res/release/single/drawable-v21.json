@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/b14bc81de38ac1e3cef6e26be25bc1d3/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-6-done/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/res/color-v23/abc_tint_edittext.xml"
+    }
+]
