@@ -1,0 +1,32 @@
+{
+  "name": "react-native-workshop",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "^23.5.0",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-image-picker": "^0.26.10",
+    "react-native-maps": "^0.21.0",
+    "react-native-onesignal": "^3.2.6",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.9.3",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0"
+  }
+}
