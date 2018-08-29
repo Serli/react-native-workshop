@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { ScrollView, Text, TouchableOpacity, View, StatusBar } from 'react-native';
+import { connect } from 'react-redux';
+import { ScrollView, Text, TouchableOpacity, View, StatusBar, Image } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import * as styles from '../styles'
 
-export default class DrawerContainer extends Component {
+class DrawerContainer extends Component {
 
     constructor(props) {
         super(props);
@@ -16,7 +17,9 @@ export default class DrawerContainer extends Component {
     render() {
         return (
             <View style={styles.drawer.container}>
-                <View style={{backgroundColor: "#efefef", height: StatusBar.currentHeight}}/>
+                <View style={styles.drawer.avatarContainer}>
+                    <Image style={styles.movie.profilPic} resizeMode={'cover'} source={this.props.avatar} />
+                </View>
                 <ScrollView style={styles.drawer.scrollView}>
                     <TouchableOpacity style={styles.drawer.button} onPress={() => this.navigateTo('NowPlaying', {type: 1})}>
                         <View style={styles.drawer.iconView}>
@@ -36,8 +39,22 @@ export default class DrawerContainer extends Component {
                         </View>
                         <Text style={styles.drawer.text}>Les mieux notés</Text>
                     </TouchableOpacity>
+                    <TouchableOpacity style={styles.drawer.button} onPress={() => this.navigateTo('Favorites')}>
+                        <View style={styles.drawer.iconView}>
+                            <Ionicons name={`ios-bookmark`} size={25} color={'black'} />
+                        </View>
+                        <Text style={styles.drawer.text}>Favoris</Text>
+                    </TouchableOpacity>
                 </ScrollView>
             </View>
         )
     }
 }
+
+const mapStateToProps = store => {
+    return {
+        avatar: store.user.avatar,
+    }
+  };
+  
+  export default connect(mapStateToProps)(DrawerContainer);

@@ -1,0 +1,222 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-vector-icons] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5995cc92ad0910813b0a349a4ca81950/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/302c15cd4aed45fc32c77bfee12c280b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/781150412d9bb6dc4198d4ad116a145d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/c3d9dab54ba7ef003c43e473d0083541/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/8f38329af325ec9d39ce6cad5e8f9dd5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/fb38f833de9614e7b03ddae369ce32f4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/2f2346429e0220440e2a2029bbaad52a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/8295ed00751bd5147d86daf0b00a1708/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/b14bc81de38ac1e3cef6e26be25bc1d3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/12701bdc0a8e7ff7687226dc77e2ef41/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/83daef9b915d9bd9b9278b4331620005/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/8de7fd0116d4aa150677260cfb20a05b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/dbb28c9141792979d2bcee4b46bdd465/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/14c69f896828bedbcabee3adc192ddfd/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/17099094fd1bcd29d8b8ed804953cacb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/d548bb805bd255b0c26e7224e9b396e3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/8a2de4298f820ae2ae14bf8b2113ec28/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/d87e3fa9426d8d576a0f634345f8e1fc/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:1-28:12
+	package
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:2:5-38
+		INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:1-28:12
+		INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:1-28:12
+		INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5995cc92ad0910813b0a349a4ca81950/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5995cc92ad0910813b0a349a4ca81950/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.CAMERA
+ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:9:5-26:19
+MERGED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5995cc92ad0910813b0a349a4ca81950/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5995cc92ad0910813b0a349a4ca81950/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/302c15cd4aed45fc32c77bfee12c280b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/302c15cd4aed45fc32c77bfee12c280b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/781150412d9bb6dc4198d4ad116a145d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/781150412d9bb6dc4198d4ad116a145d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/c3d9dab54ba7ef003c43e473d0083541/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/c3d9dab54ba7ef003c43e473d0083541/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/8f38329af325ec9d39ce6cad5e8f9dd5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/8f38329af325ec9d39ce6cad5e8f9dd5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/fb38f833de9614e7b03ddae369ce32f4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/fb38f833de9614e7b03ddae369ce32f4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/2f2346429e0220440e2a2029bbaad52a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/2f2346429e0220440e2a2029bbaad52a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/8295ed00751bd5147d86daf0b00a1708/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/8295ed00751bd5147d86daf0b00a1708/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/b14bc81de38ac1e3cef6e26be25bc1d3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/b14bc81de38ac1e3cef6e26be25bc1d3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/dbb28c9141792979d2bcee4b46bdd465/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/dbb28c9141792979d2bcee4b46bdd465/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/14c69f896828bedbcabee3adc192ddfd/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/14c69f896828bedbcabee3adc192ddfd/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:11:7-39
+	android:icon
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:12:7-41
+	android:allowBackup
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:13:7-34
+	android:theme
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:14:7-38
+	android:name
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:10:7-38
+activity#com.reactnativeworkshop.MainActivity
+ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:15:7-24:18
+	android:label
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:17:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:19:9-51
+	android:configChanges
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:18:9-79
+	android:name
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:16:9-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:20:9-23:25
+action#android.intent.action.MAIN
+ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:21:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:22:13-73
+	android:name
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:22:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:25:7-84
+	android:name
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:25:17-81
+uses-sdk
+INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5995cc92ad0910813b0a349a4ca81950/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5995cc92ad0910813b0a349a4ca81950/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/302c15cd4aed45fc32c77bfee12c280b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/302c15cd4aed45fc32c77bfee12c280b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/781150412d9bb6dc4198d4ad116a145d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/781150412d9bb6dc4198d4ad116a145d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/c3d9dab54ba7ef003c43e473d0083541/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/c3d9dab54ba7ef003c43e473d0083541/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/8f38329af325ec9d39ce6cad5e8f9dd5/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/8f38329af325ec9d39ce6cad5e8f9dd5/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/fb38f833de9614e7b03ddae369ce32f4/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/fb38f833de9614e7b03ddae369ce32f4/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/2f2346429e0220440e2a2029bbaad52a/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/2f2346429e0220440e2a2029bbaad52a/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/8295ed00751bd5147d86daf0b00a1708/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/8295ed00751bd5147d86daf0b00a1708/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/b14bc81de38ac1e3cef6e26be25bc1d3/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/b14bc81de38ac1e3cef6e26be25bc1d3/AndroidManifest.xml:21:5-23:58
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/12701bdc0a8e7ff7687226dc77e2ef41/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/12701bdc0a8e7ff7687226dc77e2ef41/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/83daef9b915d9bd9b9278b4331620005/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/83daef9b915d9bd9b9278b4331620005/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/8de7fd0116d4aa150677260cfb20a05b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/8de7fd0116d4aa150677260cfb20a05b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/dbb28c9141792979d2bcee4b46bdd465/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/dbb28c9141792979d2bcee4b46bdd465/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/17099094fd1bcd29d8b8ed804953cacb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/17099094fd1bcd29d8b8ed804953cacb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/d548bb805bd255b0c26e7224e9b396e3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/d548bb805bd255b0c26e7224e9b396e3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/8a2de4298f820ae2ae14bf8b2113ec28/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/8a2de4298f820ae2ae14bf8b2113ec28/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/d87e3fa9426d8d576a0f634345f8e1fc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/d87e3fa9426d8d576a0f634345f8e1fc/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-19:58
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /Users/fnadaud/Projets/react-native-workshop/step-4-done/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:17-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/302c15cd4aed45fc32c77bfee12c280b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/302c15cd4aed45fc32c77bfee12c280b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/781150412d9bb6dc4198d4ad116a145d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/781150412d9bb6dc4198d4ad116a145d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/c3d9dab54ba7ef003c43e473d0083541/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/c3d9dab54ba7ef003c43e473d0083541/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/8f38329af325ec9d39ce6cad5e8f9dd5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/8f38329af325ec9d39ce6cad5e8f9dd5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/fb38f833de9614e7b03ddae369ce32f4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/fb38f833de9614e7b03ddae369ce32f4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/2f2346429e0220440e2a2029bbaad52a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/2f2346429e0220440e2a2029bbaad52a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/8295ed00751bd5147d86daf0b00a1708/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/8295ed00751bd5147d86daf0b00a1708/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/b14bc81de38ac1e3cef6e26be25bc1d3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/b14bc81de38ac1e3cef6e26be25bc1d3/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.2] /Users/fnadaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/286eb7873fecc987338d699bb935e862/AndroidManifest.xml:27:13-51
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:1-28:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/fnadaud/Projets/react-native-workshop/step-4-done/android/app/src/main/AndroidManifest.xml:1:1-28:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

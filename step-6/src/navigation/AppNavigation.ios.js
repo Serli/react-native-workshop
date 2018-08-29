@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import { TouchableOpacity } from 'react-native';
 import { createStackNavigator, createBottomTabNavigator } from "react-navigation";
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import Favorites from "../Favorites";
 import MovieList from "../MovieList";
 import MovieDetail from "../MovieDetail";
 
@@ -45,6 +47,37 @@ const NowPlayingStack = createStack("À l'affiche", 1);
 const PopularStack = createStack("Populaires", 2);
 const TopRatedStack = createStack("Les mieux notés", 3);
 
+const FavoritesStack = createStackNavigator(
+  {
+    Favorites: {
+      screen: Favorites,
+      navigationOptions: ({ navigation }) => {
+        return {
+          headerTitle: 'Favoris',
+          headerRight: <TouchableOpacity onPress={() => {navigation.state.params && navigation.state.params.clearFavorites && navigation.state.params.clearFavorites()}} style={{padding: 10}}>
+              <Ionicons name={`ios-trash`} color={'black'} size={25}/>
+            </TouchableOpacity>
+        };
+      }
+    },
+    MovieDetail: {
+      screen: MovieDetail,
+      navigationOptions: ({ navigation }) => {
+        return {
+          headerTitle: navigation.state.params.item.title
+        };
+      }
+    }
+  },
+  {
+    navigationOptions: () => ({
+      headerStyle: {backgroundColor: '#efefef'},
+      headerTintColor: "black",
+    }),
+    initialRouteName: "Favorites"
+  }
+);
+
 const TabNavigator = createBottomTabNavigator(
   {
     NowPlaying: {
@@ -74,6 +107,15 @@ const TabNavigator = createBottomTabNavigator(
         }
       }
     },
+    FavoritesTab: {
+      screen: FavoritesStack,
+      navigationOptions: () => {
+        return {
+          header: null,
+          title: 'Favoris',       
+        }
+      }
+    },
   },
   {
     navigationOptions: ({ navigation }) => ({
@@ -86,6 +128,8 @@ const TabNavigator = createBottomTabNavigator(
           iconName = `ios-flame`;
         } else if (routeName === 'TopRated') {
           iconName = `ios-star`;
+        } else if (routeName === 'FavoritesTab') {
+          iconName = `ios-bookmark`;
         }
         return <Ionicons name={iconName} size={25} color={tintColor} />;
       },

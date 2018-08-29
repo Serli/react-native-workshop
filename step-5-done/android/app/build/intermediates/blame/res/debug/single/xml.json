@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/reactnativeworkshop/react-native-image-picker/unspecified/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/fnadaud/Projets/react-native-workshop/step-7-done/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/xml/preferences.xml"
+    }
+]

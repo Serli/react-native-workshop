@@ -1,6 +1,9 @@
 import React, { Component } from "react";
+import { TouchableOpacity } from 'react-native';
 import { createStackNavigator, createDrawerNavigator } from "react-navigation";
+import Ionicons from 'react-native-vector-icons/Ionicons';
 import IconFeather from 'react-native-vector-icons/Feather';
+import Favorites from "../Favorites";
 import MovieList from "../MovieList";
 import MovieDetail from "../MovieDetail";
 import DrawerContainer from './DrawerContainer'
@@ -49,6 +52,25 @@ const StackNavigator = createStackNavigator(
     NowPlaying: createList("À l'affiche"),
     Popular: createList("Populaires"),
     TopRated: createList("Les mieux notés"),
+    Favorites: {
+      screen: Favorites,
+      navigationOptions: ({navigation}) => {
+        return {
+          headerTitle: 'Favoris',
+          headerLeft: <IconFeather 
+                    name='menu' 
+                    color='black' 
+                    size={24} 
+                    style={{paddingLeft: 10}}
+                    onPress={() => {
+                        navigation.openDrawer();
+                    }}/>,
+          headerRight: <TouchableOpacity onPress={() => {navigation.state.params && navigation.state.params.clearFavorites && navigation.state.params.clearFavorites()}} style={{padding: 10}}>
+              <Ionicons name={`ios-trash`} color={'black'} size={25}/>
+            </TouchableOpacity>
+        };
+      }
+    },
     MovieDetail: createDetail(),
   },
   {

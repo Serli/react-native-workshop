@@ -17,10 +17,12 @@ export const person = StyleSheet.create({
   name: {
     textAlign: 'center',
     fontWeight: 'bold',
-    fontSize: 14
+    fontSize: 14,
+    color: 'black'
   },
   character: {
     textAlign: 'center',
-    fontSize: 14
+    fontSize: 14,
+    color: 'black'
   }
 });

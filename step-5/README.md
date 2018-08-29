@@ -25,14 +25,18 @@ Remplacez le code de votre fichier *App.js* par :
 ```javascript
 import React, { Component } from 'react';
 import AppNavigation from './src/navigation/AppNavigation';
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/lib/integration/react';
+import { store, persistor } from './src/store';
 import OneSignal from 'react-native-onesignal';
+import { ONESIGNAL } from './src/api/constants'
 
 console.ignoredYellowBox = ['Warning: isMounted(...) is deprecated'];
 
 export default class App extends Component {
   
   componentWillMount() {
-    OneSignal.init("YOUR-ONESIGNAL-APP-ID");
+    OneSignal.init(ONESIGNAL.id);
     OneSignal.inFocusDisplaying(2);
 
     OneSignal.addEventListener('received', this.onReceived);
@@ -66,15 +70,22 @@ export default class App extends Component {
 
   render() {
     return (
-      <AppNavigation />
+      <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+          <AppNavigation />
+        </PersistGate>
+      </Provider>
     );
   }
 }
 ```
 
-Sur [le site OneSignal](https://onesignal.com/), dans l'onglet **Settings**, dans la partie **Keys & IDs**, récupérez votre *ONESIGNAL APP ID* et remplacez le dans la méthode :
+Sur [le site OneSignal](https://onesignal.com/), dans l'onglet **Settings**, dans la partie **Keys & IDs**, récupérez votre *ONESIGNAL APP ID* et remplacez le dans le fichier api/constants :
+
 ```javascript
-OneSignal.init("YOUR-ONESIGNAL-APP-ID");
+export const ONESIGNAL = {
+    id: 'YOUR-ONESIGNAL-APP-ID'
+}
 ```
 
 Pour fonctionner, OneSignal nécessite que notre application soit au minimum au niveau d'API 26, nous nous sommes chargés de ça dans l'étape 4.

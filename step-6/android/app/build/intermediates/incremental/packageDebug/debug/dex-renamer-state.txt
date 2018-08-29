@@ -1,0 +1,4 @@
+#Wed Aug 29 10:43:06 CEST 2018
+base.0=/Users/fnadaud/Projets/react-native-workshop/step-5-done/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/fnadaud/Projets/react-native-workshop/step-5-done/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

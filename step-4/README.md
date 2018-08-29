@@ -356,7 +356,23 @@ allprojects {
 
 ### Modification de l'avatar
 
-Pour que notre avatar disponible dans toute l'application et qu'il soit sauvegardé nous allons le stocker dans le store.
+Suite à l'éjection, si vous voyez un warning apparaître dans votre application, c'est parce que React Native évolue. Certaines fonctions deviennent obsolètes et c'est le cas de la fonction "isMounted" utilisée par React Navigation. Pour cacher ce warning, vous pouvez ajouter dans le fichier App.js :
+
+```javascript
+...
+import { store, persistor } from './src/store';
+
+console.ignoredYellowBox = ['Warning: isMounted(...) is deprecated'];
+
+export default class App extends Component {
+...
+```
+
+Vous pourrez enlever ce code lorsque React Navigation aura mis à jour sa librairie.
+
+Maintenant que notre application fonctionne comme avant, nous pouvons revenir à la modification de l'avatar.
+
+Pour que notre avatar soit disponible dans toute l'application et qu'il soit sauvegardé nous allons le stocker dans le store.
 
 Créez un reducer nommé user qui va contenir notre avatar et qui va permettre de mettre à jour ça valeur :
 

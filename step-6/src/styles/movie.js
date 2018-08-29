@@ -28,7 +28,7 @@ export const movieList = StyleSheet.create({
   },
   pageNumber: {
     color:'black',
-    textAlign:'center'
+    textAlign:'center',
   }
 });
 
@@ -36,6 +36,17 @@ export const movie = StyleSheet.create({
   container: {
     flex:1,
     backgroundColor: "white"
+  },
+  noFavoritesContainer: {
+    flex:1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: "white"
+  },
+  noFavoritesText: {
+    fontSize: 18,
+    textAlign: 'center',
+    color: 'black'
   },
   subcontainer: {
     justifyContent: 'space-between',
@@ -51,6 +62,17 @@ export const movie = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  favoriteButton: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'lightgrey',
+    borderColor: "black",
+    borderWidth: 2,
+    borderRadius: 20,
+    marginHorizontal: '25%',
+    height: 40,
+    marginBottom: 20
   },
   rowContainer: {
     flexDirection: 'row',
@@ -70,24 +92,29 @@ export const movie = StyleSheet.create({
   title: {
     fontSize: 18,
     textAlign: 'center',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: 'black'
   },
   libelle: {
     fontSize: 15,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: 'black'
   },
   centeredLibelle: {
     textAlign: 'center',
     fontSize: 15,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: 'black'
   },
   text: {
     fontSize: 14,
-    textAlign: 'justify'
+    textAlign: 'justify',
+    color: 'black'
   },
   centeredText: {
     textAlign: 'center',
-    fontSize: 14
+    fontSize: 14,
+    color: 'black'
   },
   poster: {
     width:100,
@@ -96,5 +123,24 @@ export const movie = StyleSheet.create({
   backdrop: {
     height: 235,
     width: "100%"
+  },
+  profileContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingBottom: 10,
+    marginTop: 10,
+    borderBottomWidth: 8,
+    borderBottomColor: 'lightgrey',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 1,
+    zIndex: 10,
+  },
+  profilPic: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    borderColor: 'black',
+    borderWidth: 2
   }
 });
