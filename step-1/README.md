@@ -14,7 +14,7 @@ Dans le dossier *src*, nous avons rajouté :
 
 - Un fichier *MovieList.js* dans lequel vous devrez écrire le code permettant d'afficher une liste de films.
 
-- Un fichier *Movie.js* dans lequel devrez écrire le code permettant d'afficher un film dans la liste.
+- Un fichier *Movie.js* dans lequel vous devrez écrire le code permettant d'afficher un film dans la liste.
 
 Le fichier *App.js* contient le composant qui sera appelé par votre application.
 Nous l'avons pré-rempli pour qu'il affiche le composant MovieList. Il contient également un composant View qui permet de ne pas empiéter sur la barre de status.
