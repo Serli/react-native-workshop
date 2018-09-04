@@ -267,7 +267,7 @@ export default class App extends Component {
 
 ### Éjection de l'application
 
-Nous allons maintenant ajouter la possibilité de modifier son avatar en le sélectionnant dans la gallerie du téléphone ou en prenant une photo directement. Pour réaliser ceci, nous allons utiliser la librairie **react-native-image-picker** qui nécessite d'éjecter l'application.
+Nous allons maintenant ajouter la possibilité de modifier son avatar en le sélectionnant dans la galerie du téléphone ou en prenant une photo directement. Pour réaliser ceci, nous allons utiliser la librairie **react-native-image-picker** qui nécessite d'éjecter l'application.
 
 L'éjection de l'application va mettre à disposition les parties natives de notre appli dans les dossiers ios et android. Ceci va nous permettre d'ajouter de nouvelles librairies contenant du code natif et qu'il est nécessaire de lier à notre projet, ce que nous ne pouvons pas faire tant que l'application est encapsulée par Expo.
 
@@ -293,11 +293,11 @@ Sur iOS, ajoutez ces lignes dans le fichier **ios/reactnativeworkshop/Info.plist
   <dict>
     ...
     <key>NSPhotoLibraryUsageDescription</key>
-    <string>$(PRODUCT_NAME) souhaite accéder à votre gallerie d'image</string>
+    <string>$(PRODUCT_NAME) souhaite accéder à votre galerie d'image</string>
     <key>NSCameraUsageDescription</key>
     <string>$(PRODUCT_NAME) souhaite utiliser l'appareil photo</string>
     <key>NSPhotoLibraryAddUsageDescription</key>
-    <string>$(PRODUCT_NAME) souhaite sauvegarder des photos dans votre gallerie d'image</string>
+    <string>$(PRODUCT_NAME) souhaite sauvegarder des photos dans votre galerie d'image</string>
   </dict>
 </plist>
 ```
@@ -416,7 +416,7 @@ updateAvatar = () => {
     ImagePicker.showImagePicker({
       title:'Sélectionnez votre avatar', 
       takePhotoButtonTitle: 'Prendre une photo ...',
-      chooseFromLibraryButtonTitle: 'Choisir depuis la gallerie ...',
+      chooseFromLibraryButtonTitle: 'Choisir depuis la galerie ...',
       cancelButtonTitle: 'Annuler'
     }, (response) => {
       if (response.didCancel) {
