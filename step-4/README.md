@@ -14,11 +14,7 @@ Nous allons également éjecter l'application afin d'utiliser la librairie React
 
 ### Redux
 
-Commençez par ajouter les librairies :
-```
-yarn add redux
-yarn add react-redux
-```
+Commençez par ajouter les librairies **redux** et **react-redux**.
 
 Ensuite créez un dossier **store** dans le dossier **src** et créez les sous-dossiers **reducers** et **actions**.
 
@@ -47,27 +43,7 @@ export default favorites = (state = defaultState, action) => {
 }
 ```
 
-Nous allons ajouter une action dans le reducer qui va gérer l'ajout et la suppression d'un film dans la liste des favoris. Si le film que l'on souhaite ajouter n'est pas présent dans le state, on l'ajoute, sinon on le supprime.
-
-Ajoutez le cas **TOGGLE_FAVORITE** dans le switch case :
-
-```javascript
-case 'TOGGLE_FAVORITE':
-    const favoriteFilmIndex = state.movies.findIndex(item => item.id === action.value.id)
-    if (favoriteFilmIndex !== -1) {
-      nextState = {
-        ...state,
-        movies: state.movies.filter( (item, index) => index !== favoriteFilmIndex)
-      }
-    }
-    else {
-      nextState = {
-        ...state,
-        movies: [...state.movies, action.value]
-      }
-    }
-    return nextState || state;
-```
+Ajoutez le cas **TOGGLE_FAVORITE** dans le switch case qui va gérer l'ajout et la suppression d'un film dans la liste des favoris. Si le film que l'on souhaite ajouter n'est pas présent dans le state, on l'ajoute, sinon on le supprime.
 
 Créez ensuite un fichier **index.js** dans le dossier reducers et exportez le reducer. Nous allons anticiper l'ajout d'autres reducers en utilisant combineReducers : 
 
@@ -145,27 +121,9 @@ export default connect(mapStateToProps)(MovieDetail);
 
 Vous devrez faire cette étape pour tous les composants qui ont besoin des données du store.
 
-Pensez à enlever l'export de MovieDetail au début du fichier. Ensuite, nous allons ajouter une icône indiquant si le film est déjà dans les favoris ainsi qu'un bouton permettant d'ajouter le film aux favoris.
+Pensez à enlever l'export de MovieDetail au début du fichier. Ensuite, nous allons ajouter une icône indiquant si le film est  dans les favoris ou non, ainsi qu'un bouton permettant d'ajouter ou retirer le film des favoris.
 
 Ajoutez ces éléments au dessus du titre et ajoutez une variable isFavorite dans le render qui permet de savoir si le film fait déjà parti des favoris.
-
-```javascript
-const isFavorite = this.props.favorites.findIndex(item2 => item2.id === item.id) !== -1;
-```
-
-```javascript
-<Ionicons 
-    style={{alignSelf:'center', marginBottom :10}} 
-    name={`ios-bookmark`} 
-    color={isFavorite?'black':'lightgrey'} 
-    size={25}
-/>
-<TouchableOpacity style={styles.movie.favoriteButton} onPress={() => {}}>
-    <Text style={styles.movie.libelle}>
-        {isFavorite?'Enlever des favoris  ':'Ajouter aux favoris  '}
-    </Text>
-</TouchableOpacity>
-```
 
 Vous devriez obtenir ce résultat :
 
@@ -187,15 +145,9 @@ toggleFavorite = () => {
 }
 ```
 
-N'oubliez pas d'appeler cette fonction dans le onPress du bouton.
+Donc maintenant que l'on peut ajouter des favoris, ajoutez une icône dans le composant **Movie** permettant de savoir que le film est dans les favoris sans avoir à aller dans le détail du film (vous pouvez mettre cette icône entre la date de sortie et le synopsis).
 
-Maintenant que l'on peut ajouter des favoris, ajoutez une icône dans le composant **Movie** permettant de savoir que le film est dans les favoris sans avoir à aller dans le détail du film (vous pouvez mettre cet icône entre la date de sortie et le synopsis) :
-
-```javascript
-{isFavorite && <Ionicons style={{alignSelf: 'center', marginTop: 10}} name={`ios-bookmark`} color={'black'} size={25}/>}
-```
-
-Nous allons maintenant rajouter un écran permettant de visualiser la liste des films favoris. Ce composant est déjà créé et est nommé **Favorites**. Servez vous de vos connaissances de l'étape 3 pour ajouter ce composant à la navigation.
+Nous allons également rajouter un écran permettant de visualiser la liste des films favoris. Ce composant est déjà créé et est nommé **Favorites**. Servez vous de vos connaissances de l'étape 3 pour ajouter ce composant à la navigation.
 
 Maintenant que nous pouvons accéder à cet écran, nous allons pouvoir le compléter. Pour le moment, il affiche une image cliquable et dispose d'une fonction updateAvatar. Ces éléments serviront pour la suite de l'étape, ne vous en préoccupez pas pour le moment. Faites en sorte d'afficher la liste des favoris en dessous de l'image et affichez un message du type "Vous n'avez aucun favoris" si la liste est vide.
 
@@ -212,17 +164,16 @@ Lors de l'appui sur le bouton, on appel la fonction clearFavorites qui est dans 
 Il faut donc maintenant définir cette fonction dans le constructeur de **Favorites** :
 
 ```javascript
-const {navigation, dispatch} = this.props;
 navigation.setParams({
-    clearFavorites: () => { dispatch(Actions.favorites.clear()) }
+    clearFavorites: () => { /* Appel de l'action redux */ }
 });
 ```
 
 ### Persister le store
 
-Maintenant nous pouvons gérer les favoris dans l'application. Cependant lorsque l'on ferme l'application et qu'on la réouvre, le store redux est remis à zéro et l'on perd tous les favoris. Nous allons voir comment sauvegarder le store pour qu'il soit conservé entre deux ouvertures de l'application grâce à la librairie **redux-persist**.
+Maintenant les favoris sont gérés dans l'application. Cependant lorsque l'on ferme l'application et qu'on la réouvre, le store redux est remis à zéro et l'on perd tous les favoris. Nous allons voir comment sauvegarder le store pour qu'il soit conservé entre deux ouvertures de l'application grâce à la librairie **redux-persist**.
 
-Commencez par ajouter la librairie avec ```yarn add redux-persist```, ensuite modifiez le fichier **index.js** du dossier **store** de cette façon :
+Commencez par ajouter la librairie **redux-persist**, ensuite modifiez le fichier **index.js** du dossier **store** de cette façon :
 
 ```javascript
 import { createStore } from 'redux';
@@ -272,7 +223,7 @@ Nous allons maintenant ajouter la possibilité de modifier son avatar en le sél
 L'éjection de l'application va mettre à disposition les parties natives de notre appli dans les dossiers ios et android. Ceci va nous permettre d'ajouter de nouvelles librairies contenant du code natif et qu'il est nécessaire de lier à notre projet, ce que nous ne pouvons pas faire tant que l'application est encapsulée par Expo.
 
 Nous allons maintenant éjecter notre projet en exécutant la commande ```yarn eject```. Choisissez l'option **_React Native: I'd like a regular React Native project_**, entrez le nom de l'application : **_React Native Workshop_** puis saisissez le nom de projet pour Android Studio / Xcode : **_reactnativeworkshop_**.
-Voilà votre projet est éjecté. Maintenant ajoutez la librairie React Native Image Picker avec la commande ```yarn add react-native-image-picker```.
+Voilà votre projet est éjecté. Maintenant ajoutez la librairie **react-native-image-picker**.
 
 ### react-native link
 
@@ -285,7 +236,7 @@ Après l'éjection du projet, je vous conseille de lancer ```react-native link``
 
 ### Permissions
 
-Certaines librairies nécessitent des permissions pour accéder aux composants du téléphone. Le plus souvent les permissions nécessaires sont indiquées dans la documentation de la librairie.
+Certaines librairies nécessitent des permissions pour accéder aux composants du téléphone. Le plus souvent les permissions nécessaires sont indiquées dans la documentation de la librairie (c'est le cas pour la librairie React Native Image Picker).
 
 Sur iOS, ajoutez ces lignes dans le fichier **ios/reactnativeworkshop/Info.plist** :
 ```plist
@@ -374,36 +325,9 @@ Maintenant que notre application fonctionne comme avant, nous pouvons revenir à
 
 Pour que notre avatar soit disponible dans toute l'application et qu'il soit sauvegardé nous allons le stocker dans le store.
 
-Créez un reducer nommé user qui va contenir notre avatar et qui va permettre de mettre à jour ça valeur :
+Créez un reducer nommé user qui va contenir notre avatar (qui sera par défaut égal à ```require('../../assets/defaultPic.png')```) et qui va permettre de mettre à jour sa valeur avec le cas **UPDATE_AVATAR**.
 
-```javascript
-const defaultState = {
-  avatar: require('../../assets/defaultPic.png'),
-};
-  
-export default user = (state = defaultState, action) => {
-  let nextState
-  switch (action.type) {
-  case 'UPDATE_AVATAR':
-    nextState = {
-      ...state,
-      avatar: action.value
-    }
-    return nextState || state
-  default:
-    return state
-  }
-}
-```
-
-Ajoutez le dans le fichier index.js de la même manière que favorites et créez une action user :
-
-```javascript
-export const updateAvatar = (avatar) => {
-    const action = { type: "UPDATE_AVATAR", value: avatar }
-    return action;
-};
-```
+Ajoutez le dans le fichier index.js de la même manière que favorites et créez une action user.
 
 Exportez user dans le fichier index.js de la même manière que favorites.
 
@@ -426,8 +350,10 @@ updateAvatar = () => {
         Alert.alert(`Nous n'avons pas pu importer votre image`);
       }
       else {
-        this.props.dispatch(Actions.user.updateAvatar({ uri: response.uri }));
+        // Appel de l'action updateAvatar
       }
     })
   }
 ```
+
+Enfin testez le bon fonctionnement de cette fonctionnalité.
