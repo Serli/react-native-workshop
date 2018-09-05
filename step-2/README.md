@@ -189,7 +189,7 @@ handleScroll = (event) => {
   }
 ```
 
-Et voilà maintenant les boutons disparaissent lorsue l'on scroll vers le bas et réapparaissent lorsque l'on scroll vers le haut. Cependant sur iOS, lorsque l'on atteint le bout de la liste, il y a un rebond qui fait remonter la liste. Il va donc falloir désactiver ce rebond grâce à l'attribut **bounces** de la FlatList. Mais le passer simplement à false n'est pas suffisant car cela désactive le pull to refresh. Il faut donc le relier à notre variable ascending : 
+Et voilà maintenant les boutons disparaissent lorsque l'on scroll vers le bas et réapparaissent lorsque l'on scroll vers le haut. Cependant sur iOS, lorsque l'on atteint le bout de la liste, il y a un rebond qui fait remonter la liste. Il va donc falloir désactiver ce rebond grâce à l'attribut **bounces** de la FlatList. Mais le passer simplement à false n'est pas suffisant car cela désactive le pull to refresh. Il faut donc le relier à notre variable ascending : 
 
 ```javascript
 bounces={this.state.ascending}
