@@ -42,37 +42,34 @@ export default class AppNavigation extends Component {
 }
 ```
 
-Nous allons maintenant créer un StackNavigator qui permet de définir les écrans atteignables lors de la navigation. Toujours dans le même fichier mais à l'extérieur du composant créez la constante Stack : 
+Nous allons maintenant créer un StackNavigator qui permet de définir les écrans atteignables lors de la navigation. Toujours dans le même fichier mais à l'extérieur du composant créez la constante Stack de type : 
 
 ```javascript
 import { createStackNavigator } from "react-navigation";
-import MovieList from "../MovieList";
-import MovieDetail from "../MovieDetail";
+import Screen1 from "../Screen1";
+import Screen2 from "../Screen2";
 
 const Stack = createStackNavigator(
   {
-    MovieList: {
-      screen: MovieList,
+    Screen1: {
+      screen: Screen1,
       navigationOptions: () => {
         return {
-          headerTitle: "À l'affiche"
+          headerTitle: "un titre"
         };
       }
     },
-    MovieDetail: {
-      screen: MovieDetail,
-      navigationOptions: ({ navigation }) => {
-        return {
-          headerTitle: navigation.state.params.item.title
-        };
-      }
-    }
+    Screen2: {
+      screen: Screen2,
+      ...
+    },
+    ...
   },
   {
     navigationOptions: () => ({
       headerTintColor: "black"
     }),
-    initialRouteName: "MovieList"
+    initialRouteName: "Screen1"
   }
 );
 ```
