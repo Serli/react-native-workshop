@@ -100,18 +100,18 @@ Remplacez la View englobant le composant Movie par un TouchableOpacity pour que 
 ```javascript
 onPress = item => {
     const { navigate } = this.props.navigation;
-    navigate({ routeName: 'MovieDetail', params: { item } });
+    navigate({ routeName: 'Screen2', params: { title } });
   }
 ```
 
 La méthode navigate permet de naviguer vers l'écran précisé dans le paramètre **routeName** et l'on peut passer des paramètres au nouvel écran en les indiquant dans **params**. Le nouvel écran aura alors accès à ces paramètres dans **this.props.navigation.state.params**. Ces paramètres peuvent également être récupéré dans la navigation. Par exemple dans notre stack de navigation, nous avons défini l'écran MovieDetail de cette façon :
 
 ```javascript
-MovieDetail: {
-      screen: MovieDetail,
+Screen2: {
+      screen: Screen2,
       navigationOptions: ({ navigation }) => {
         return {
-          headerTitle: navigation.state.params.item.title
+          headerTitle: navigation.state.params.title
         };
       }
     }
