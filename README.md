@@ -145,7 +145,6 @@ Pour pré-installer les dépendances à l'avance, vous pouvez lancer le script `
     - Gestion des permissions
     - Accès à l'appareil photo et aux images du device
 - Étape 5
-    - Éjection de l'application
     - Ajout de la librairie react-native-onesignal
     - Ajout de notifications pour Android
 - Étape 6
